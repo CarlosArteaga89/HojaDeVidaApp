@@ -1,0 +1,179 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-header {
+  --background: #0e4c71;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+ion-header ion-title {
+  color: #0e4c71;
+}
+
+.perfil {
+  background-color: #0e4c71;
+  text-align: center;
+  border-radius: 0 0 2rem 2rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.perfil ion-list {
+  background-color: #0e4c71;
+}
+
+.perfil ion-list-header {
+  border: 3px solid #e72f2b;
+  border-radius: 1rem;
+  color: white;
+  text-align: left;
+  text-transform: capitalize;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.perfil ion-list-header ion-label {
+  margin-bottom: 10px;
+}
+
+.sobremi {
+  text-align: justify;
+}
+
+.sobremi ion-note {
+  color: #0e4c71;
+  text-align: justify;
+}
+
+.estudios ion-list ion-icon {
+  color: #e72f2b;
+  margin-right: 5px;
+}
+
+.estudios ion-list ion-label {
+  color: #0e4c71;
+  text-align: justify;
+}
+
+.experiencia ion-list ion-icon {
+  color: #e72f2b;
+  margin-right: 5px;
+}
+
+.experiencia ion-list ion-label {
+  color: #0e4c71;
+  text-align: justify;
+}
+
+.informacion ion-card {
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.informacion ion-card-header {
+  padding: 0;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.informacion ion-card-title{
+  background-color: #0e4c71;
+  border: 3px solid #e72f2b;
+  border-radius: 1rem;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  text-transform: capitalize;
+  height: 40px;
+  width: 100%;
+}
+
+
+.perfil .row-avatar {
+  justify-content: center;
+}
+
+.perfil .row-avatar ion-avatar {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #e72f2b;
+  border-radius: 50%;
+}
+
+.contacto ion-icon {
+  background-color: #e72f2b;
+  padding: 5px;
+  border-radius: 1rem;
+  color: white;
+}
+
+.contacto ion-button ion-icon {
+  background-color: #0e4c71;
+  color: #e72f2b;
+}
+
+.referencia ion-card-title {
+  color: #0e4c71;
+  background-color: white;
+  border: 3px solid white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.referencia .row-avatar {
+  justify-content: center;
+}
+
+.referencia ion-avatar img {
+  width: 70px;
+  height: 70px;
+}
+
+.referencia ion-avatar {
+  margin-top: 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #e72f2b;
+  border-radius: 50%;
+}
+
+.mail{
+  text-transform: none;
+}
+
+ion-button {
+  color: #e72f2b;
+}
+
+.informaciontitulo {
+  margin: 5px;
+}
+
